@@ -107,14 +107,20 @@ PV = 10 + Constituição + Vigor
 ```
 PM = 10 + Sabedoria + Capacidade Mágica
 ```
-- **Capacidade Mágica** é fornecida pela classe
+- **Capacidade Mágica** é fornecida pela classe — principal fator de crescimento
 - Plebeu sem classe: `PM = 10 + Sabedoria`
 
-> ⚠️ **Ponto de atenção registrado:**
-> Sabedoria governa tanto PM quanto percepção e resistência mental.
-> Personagens sábios naturalmente terão mais PM mesmo sem serem conjuradores.
-> Isso pode ser intencional ou pode requerer ajuste quando as classes forem definidas.
-> **A revisão do atributo base de PM está em aberto.**
+**Filosofia do sistema:**
+- Sabedoria como base mantém o PM contido e significativo
+- Atributos são muito mais difíceis de desenvolver que perícias — evita PM quase infinito
+- A **Capacidade Mágica da classe** é o que realmente domina o crescimento de PM
+- PM será consumido por **todas as classes** — inclusive para ativar poderes sobre-humanos
+- Um guerreiro que ignora Sabedoria é competente; o que não ignora é uma lenda
+
+> Sabedoria representa a capacidade de **perceber e sentir** a mana.
+> Vontade representa a **disciplina mental** para canalizá-la com precisão.
+> Assim como Constituição/Fortitude governa o físico,
+> Sabedoria/Vontade governa o espiritual.
 
 ---
 
@@ -127,7 +133,7 @@ PERSONAGEM NOVO
         Pratica perícias livremente
         Torna-se treinado: INT − 10 perícias
         PV = 10 + CON
-        PM = 10 + SAB (em revisão)
+        PM = 10 + SAB
         │
         └─► NÍVEL 5 atingido
               Missões de classe disponíveis
@@ -144,11 +150,65 @@ PERSONAGEM NOVO
 
 ---
 
+## 🏆 Patamares de Classe
+
+Cada classe possui **4 patamares** que representam o grau de maestria do personagem.
+Os patamares são baseados no **nível de classe**, não no nível de personagem.
+
+| Patamar | Nível de Classe | Descrição |
+|---|---|---|
+| **Iniciante** | 1º ao 6º | Vira comida |
+| **Veterano** | 7º ao 13º | Vira comida com mais resistência |
+| **Campeão** | 14º ao 20º | Vira comida de luxo |
+| **Lenda** | 21º em diante | Raridade histórica — o mundo se lembra do nome |
+
+---
+
+### O Patamar Lenda — Sem Teto, Sem Garantias
+
+Ao atingir o nível 21 o personagem entra no patamar Lenda — e uma estátua em sua homenagem já está mais do que justificada. A partir daqui **não há limite de poder**. Cada nível conquistado continua expandindo capacidades de forma exponencialmente mais difícil.
+
+Porém — e isso é fundamental — **Lenda não significa ápice**.
+
+Significa que o personagem finalmente consegue **enxergar o quanto o topo ainda está longe**.
+
+#### A Escala Real com Dragões Ancestrais
+
+Dragões Ancestrais existem desde a Era dos Sem Nome. Varukheth extinguiu o Sol por 43 dias com um rugido. Selhara inverteu o curso de um rio com um bater de asas. Esses seres não possuem nível catalogado — **eles são o parâmetro pelo qual níveis são medidos**.
+
+```
+Plebeu          → vira comida
+Iniciante       → vira comida com mais resistência
+Veterano        → ameaça real, desfecho improvável
+Campeão         → combate possível, sobrevivência incerta
+Lenda (21+)     → sobrevive tempo suficiente para ver o dragão
+Lenda (21+)     → talvez consiga fugir
+Lenda (21+)     → em um dia muito bom, com muita sorte e estrutura
+                   emocional suficiente... fracassa com dignidade
+```
+
+> Missões envolvendo Dragões Ancestrais não são desafios normais para uma Lenda.
+> São eventos. Um Lenda que sobreviveu ao encontro — mesmo fracassando —
+> já merece dez capítulos de lore apenas sobre aquele dia.
+
+#### Relação com os Deuses
+
+No patamar Lenda, os Deuses passam a enxergar o personagem de forma diferente —
+não mais apenas como devoto ou instrumento, mas como uma **variável no mundo**
+que merece atenção direta. Isso não os torna iguais aos Deuses.
+Mas os torna relevantes de uma forma que pouquíssimos mortais alcançam.
+
+#### Morte no Patamar Lenda
+- Personagens Lenda **podem morrer** — e irão ressuscitar com penalidades
+- Regras de ressurreição a definir posteriormente
+
+---
+
 ## ⏳ Em Aberto
 
 - Lista de classes e seus pré-requisitos de perícia
 - Vigor fornecido por cada classe
 - Capacidade Mágica fornecida por cada classe
-- Revisão do atributo base de PM
 - Quantidade e sequência de missões por NPC de perícia
 - Poderes e benefícios por nível de classe
+- Regras de ressurreição
