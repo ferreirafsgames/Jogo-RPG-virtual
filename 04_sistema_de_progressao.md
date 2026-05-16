@@ -1,5 +1,5 @@
 # ⚙️ Sistema de Progressão
-*Documento de design — RPG Medieval*
+*Documento de design — RPG Felferre*
 *Status: Em desenvolvimento*
 
 ---
@@ -22,11 +22,15 @@
 
 | Trilha | Como se ganha | Efeito |
 |---|---|---|
-| **XP de Nível** | Missões dadas por NPCs ou geradas pelo sistema | Integra como parcela no cálculo de atributos e perícias |
-| **XP de Atributo** | Prática real de atividades físicas ou mentais | Integra como parcela no cálculo das perícias e poderes |
-| **XP de Perícia** | Uso específico e repetido da perícia | Evolução granular e específica |
+| **XP de Nível** | Missões dadas por NPCs ou geradas pelo sistema | Sobe o nível de personagem |
+| **XP de Atributo** | Prática real de atividades físicas ou mentais | Aumenta o valor do atributo correspondente |
+| **XP de Perícia** | Uso específico e repetido da perícia | Aumenta o valor da perícia correspondente |
 
-As trilhas ganham XP de forma **independente** mas se **somam para formar o todo**.
+As trilhas ganham XP de forma **independente**.
+O nível e os atributos **influenciam** o valor final das perícias,
+mas cada trilha tem sua própria fonte e custo.
+
+> Ver custos detalhados de XP de Atributo e Perícia em `03_atributos.md`.
 
 ---
 
@@ -41,6 +45,10 @@ Cada ação gera XP **na área correspondente** — não XP genérico.
 - Manejar animais → XP de **Sabedoria** + **Carisma**
 - Gestão e planejamento da horta → XP de **Inteligência**
 
+O sistema detecta a **intenção** da ação, não apenas o objeto.
+Um personagem que treina com consciência do que quer desenvolver
+ganha XP no atributo pretendido.
+
 ---
 
 ## Exibição para o Jogador
@@ -54,7 +62,7 @@ Cada ação gera XP **na área correspondente** — não XP genérico.
 
 - Tudo pode desencadear uma missão
 - Missões são a fonte primária de **XP de Nível**
-- Geradas por NPCs ou pelo sistema a medida que o personagem interage com o mundo
+- Geradas por NPCs ou pelo sistema à medida que o personagem interage com o mundo
 - Sistema de geração de missões a ser detalhado posteriormente
 
 ---

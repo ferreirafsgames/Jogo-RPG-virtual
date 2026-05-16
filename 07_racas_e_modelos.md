@@ -1,5 +1,5 @@
 # 🧬 Raças e Modelos
-*Documento de design — RPG Medieval*
+*Documento de design — RPG Felferre*
 *Status: Em desenvolvimento — pendente desenvolvimento individual*
 
 ---
@@ -15,7 +15,7 @@ Cada raça tem sua própria relação com memória, aprendizado, regressão e es
 
 Base inicial nas raças do **Tormenta RPG** — a confirmar, adaptar e expandir.
 
-**Lista provisória (verificar manual oficial):**
+**Lista atual (Lefou removidos):**
 - Humano
 - Elfo
 - Anão
@@ -23,7 +23,6 @@ Base inicial nas raças do **Tormenta RPG** — a confirmar, adaptar e expandir.
 - Goblin
 - Dahllan
 - Minotauro
-- Lefou
 - Qareen
 - Sílfide
 - Hynne
@@ -35,6 +34,7 @@ Base inicial nas raças do **Tormenta RPG** — a confirmar, adaptar e expandir.
 - Sereia/Tritão
 
 > ⚠️ Esta não é uma lista final. Cada raça será desenvolvida individualmente.
+> Raças exclusivas do mundo de Felferre podem ser adicionadas posteriormente.
 
 ---
 
@@ -53,6 +53,12 @@ Humanos servem como modelo de referência para o design de outras raças:
 - Excelentes em desenvolver uma **diversidade maior** de perícias
 - Retomam o crescimento de uma perícia com mais velocidade ao voltar a praticá-la
 
+> A relação de cada raça com o tempo e a longevidade
+> também influencia o custo de XP de atributo.
+> Elfos, por exemplo, têm milênios — o que para um humano é impraticável,
+> para um Elfo ancestral é apenas... paciência.
+> (sistema de tempo de vida por raça — baixa prioridade, a definir)
+
 ---
 
 ## Sistema de Modelos
@@ -60,12 +66,14 @@ Humanos servem como modelo de referência para o design de outras raças:
 Além das raças jogáveis, existe um sistema de **modelos** que define
 o tipo fundamental de ser:
 
-- Animal
-- Monstro
-- Construto
-- Espírito
-- Demônio
-- *(outros a definir)*
+| Modelo | Descrição |
+|---|---|
+| **Animal** | A definir |
+| **Monstro** | A definir |
+| **Construto** | A definir |
+| **Espírito** | A definir |
+| **Demônio** | A definir |
+| **Outros** | A definir |
 
 Cada modelo terá suas próprias regras de progressão, atributos e limitações.
 
@@ -76,6 +84,6 @@ Cada modelo terá suas próprias regras de progressão, atributos e limitações
 - Lista final de raças jogáveis
 - Desenvolvimento individual de cada raça
   (modificadores, características especiais, faixas de idade, vantagens/desvantagens)
-- Lista completa de modelos
-- Regras específicas de cada modelo
-- Raças exclusivas do mundo (além das do Tormenta)
+- Lista completa de modelos e suas regras específicas
+- Raças exclusivas do mundo de Felferre
+- Tempo de vida por raça e impacto no custo de atributos

@@ -1,5 +1,5 @@
 # 🧙 Criação de Personagem
-*Documento de design — RPG Medieval*
+*Documento de design — RPG Felferre*
 *Status: Em desenvolvimento*
 
 ---
@@ -9,6 +9,7 @@
 - Cada jogador controla **1 personagem**
 - **Aparência estética** de escolha livre
 - Atributos iniciais definidos na criação, evoluindo via XP e treinamento
+- Todo personagem começa como **plebeu** — nível 1, sem classe
 
 ---
 
@@ -18,6 +19,9 @@
 
 A primeira decisão do jogador.
 A depender da idade em relação à raça, o personagem ganha e/ou perde pontos de atributo.
+
+> Faixas de idade são **relativas à raça** — um elfo de 30 anos
+> ainda seria jovem/criança. A definir individualmente por raça.
 
 #### Modificadores de Idade
 
@@ -30,14 +34,9 @@ A depender da idade em relação à raça, o personagem ganha e/ou perde pontos 
 | **Idoso** | –2 atributos físicos, +3 Sabedoria, –2 Inteligência |
 | **Ancião** | –3 atributos físicos, +3 Sabedoria, –3 Inteligência, +2 Carisma |
 
-> **Nota:** Os modificadores de idoso e ancião são intencionais.
+> Os modificadores de idoso e ancião são intencionais.
 > Todo ganho tem seu preço — um ancião troca tempo de vida e capacidade
 > por sabedoria e presença. Quem escolhe jogar com ancião sabe o que está fazendo.
-
-#### Faixas de Idade por Raça
-- Faixas de idade dependem da raça
-- Exemplo: um elfo de 30 anos ainda seria jovem/criança
-- **A definir individualmente para cada raça**
 
 ---
 
@@ -55,42 +54,52 @@ Base (10)
   + Modificadores de Idade
   = Valor inicial antes da compra por pontos
 
-+ Compra por pontos (10 pontos disponíveis)
-= Valor Final do Atributo na criação
+  + Compra por pontos (10 pontos disponíveis)
+  = Valor Final do Atributo na criação
 ```
 
 > Atributos de origem de raça **não alteram** a quantidade de pontos disponíveis
 > para compra — nem para mais, nem para menos.
 
-#### Tabela de Compra por Pontos
+> A tabela de compra por pontos e as regras de XP de atributo
+> estão em `03_atributos.md`.
 
-| Valor do Atributo | Custo em Pontos |
-|---|---|
-| 8 | –2 (ganha 2 pontos extras) |
-| 9 | –1 (ganha 1 ponto extra) |
-| 10 | 0 |
-| 11 | 1 |
-| 12 | 2 |
-| 13 | 3 |
-| 14 | 5 |
-| 15 | 7 |
+---
 
-- Pode-se reduzir um atributo em até 2 pontos para ganhar pontos extras de compra
-- O valor do atributo é somado **diretamente** aos testes
-  (ex: atributo 13 = +13 em testes — sem conversão para modificador)
+### 3. Alinhamento Inicial
 
-> **Por quê sem modificador?**
-> O sistema de modificadores (+1, +2...) foi criado para facilitar
-> cálculos manuais em mesas físicas. Em um sistema virtual, o
-> processamento é instantâneo — usar o valor bruto é mais intuitivo
-> e cada ponto ganho tem peso real e visível nos testes.
+O alinhamento **não é escolhido** pelo jogador na criação.
+Todo personagem começa em **Neutro Puro** e deriva naturalmente
+conforme as ações realizadas no jogo.
+
+Ver sistema completo em `14_panteon_e_alinhamento.md`.
+
+---
+
+### 4. Perícias Iniciais
+
+- O personagem pode praticar qualquer perícia livremente
+- Pode se tornar treinado em `INT − 10` perícias formalmente
+- Treinamento formal exige missão com NPC específico da perícia
+
+> Com INT base (10): 0 perícias treinadas no início.
+> Qualquer perícia pode ser praticada de forma limitada sem treinamento.
+
+---
+
+### 5. Classe
+
+- Todo personagem começa como **plebeu** — sem classe
+- Classes ficam disponíveis a partir do **nível 5 de personagem**
+- A classe não é escolhida arbitrariamente — emerge das perícias desenvolvidas
+
+Ver sistema completo em `12_classes_e_progressao.md` e `13_lista_de_classes.md`.
 
 ---
 
 ## ⏳ Em Aberto
 
-- Lista final de raças (base: Tormenta RPG — a confirmar e expandir)
-- Sistema de modelos (animal, monstro, construto, espírito, demônio, etc.)
+- Lista final de raças jogáveis — ver `07_racas_e_modelos.md`
 - Faixas de idade detalhadas por raça
-- Escolha de perícias iniciais
-- Escolha de classe (definir classes antes)
+- Sistema de modelos (animal, monstro, construto, espírito, demônio, etc.)
+- Escolha de perícias iniciais treinadas (se houver alguma garantida na criação)

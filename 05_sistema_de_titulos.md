@@ -1,5 +1,5 @@
 # 🏅 Sistema de Títulos
-*Documento de design — RPG Medieval*
+*Documento de design — RPG Felferre*
 *Status: Em desenvolvimento*
 
 ---
@@ -43,9 +43,37 @@ Títulos existem como **reputação e fama** dentro da ficção do jogo:
 
 ---
 
+## Títulos Relacionados ao Alinhamento
+
+Mudanças significativas de alinhamento podem gerar títulos especiais:
+
+| Título | Condição |
+|---|---|
+| **O Redimido** | Personagem que foi profundamente mau e mudou de forma consistente |
+| **O Corrompido** | Personagem que foi bom e cedeu ao mal ao longo do tempo |
+| **O Equilibrista** | Personagem que manteve Neutro Puro por longo período |
+| **O Fanático** | Personagem com alinhamento extremo em qualquer direção |
+| **O Imprevisível** | Personagem cujo alinhamento oscilou muito sem direção clara |
+
+> Títulos de alinhamento são gerados automaticamente pelo sistema
+> com base no histórico de ações — não por escolha do jogador.
+
+---
+
+## Títulos Relacionados aos Patamares
+
+| Título | Condição |
+|---|---|
+| **A Estátua Merece** | Atingir o patamar Lenda (nível 21+) |
+| **Sobrevivente do Impossível** | Lenda que sobreviveu a encontro com Dragão Ancestral |
+| **A Força Real** | Receber elevação automática de nível pelo sistema |
+
+---
+
 ## ⏳ Em Aberto
 
-- Lista de títulos específicos
+- Lista completa de títulos específicos
 - Quais títulos concedem bônus mecânico vs. prestígio puro
 - Se títulos são pré-definidos ou gerados dinamicamente pelo sistema
 - Bônus mecânicos específicos de cada título
+- Títulos relacionados a divindades e devoção

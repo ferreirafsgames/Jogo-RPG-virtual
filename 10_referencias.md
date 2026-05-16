@@ -9,6 +9,7 @@
 |---|---|
 | *O Senhor dos Anéis* | Tom do mundo, raridade da magia, peso do poder |
 | *Game of Thrones* | Realismo medieval, poder tem consequências, política |
+| *The Witcher* | Tom narrativo sombrio, mundo moralmente complexo, monstros com lore |
 
 ---
 
@@ -16,7 +17,7 @@
 
 | Referência | O que inspira |
 |---|---|
-| **Tormenta RPG (T20 Jogo do Ano)** | Estrutura base de atributos, modificadores, perícias |
+| **Tormenta RPG (T20 Jogo do Ano)** | Estrutura base de atributos, perícias, alinhamento, classes |
 | **Tibia** | Evolução de skills por prática repetida com curva logarítmica |
 | *Solo Leveling* | Progressão satisfatória, títulos, sistema visível ao jogador |
 | *The Gamer* | Skills evoluindo por uso, janelas de status |

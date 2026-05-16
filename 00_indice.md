@@ -12,7 +12,7 @@
 | 02 | `02_criacao_de_personagem.md` | 🟡 Em desenvolvimento | Raça, idade, distribuição de atributos |
 | 03 | `03_atributos.md` | 🟢 Base definida | Os 6 atributos, treinamento, XP e fórmulas |
 | 04 | `04_sistema_de_progressao.md` | 🟡 Em desenvolvimento | XP, níveis, nivelamento por força real |
-| 05 | `05_sistema_de_titulos.md` | 🟡 Conceito definido | Tipos, regras, visibilidade |
+| 05 | `05_sistema_de_titulos.md` | 🟡 Conceito definido | Tipos, regras, visibilidade, alinhamento |
 | 06 | `06_sistema_de_magia.md` | 🟡 Em desenvolvimento | Arcana, divina, perícias reformuladas |
 | 07 | `07_racas_e_modelos.md` | 🔴 Pendente | Raças jogáveis, modelos de ser |
 | 08 | `08_sistema_de_itens.md` | 🔴 Pendente | Conceito inicial apenas |
@@ -21,6 +21,7 @@
 | 11 | `11_prologo_felferre.md` | 🟢 Completo | Prólogo narrativo do mundo de Felferre |
 | 12 | `12_classes_e_progressao.md` | 🟡 Em desenvolvimento | Plebeu, patamares, PV, PM, multiclasse |
 | 13 | `13_lista_de_classes.md` | 🔴 Pendente | Lista completa de classes básicas e de prestígio |
+| 14 | `14_panteon_e_alinhamento.md` | 🟡 Em desenvolvimento | Panteão, alinhamento e impacto nas ações |
 
 ---
 
@@ -41,6 +42,19 @@
 - ✅ 10 pontos para distribuir na criação (tabela de custo progressivo)
 - ✅ Valor do atributo somado diretamente aos testes (sem conversão para modificador)
 - ✅ Modificadores de raça e idade somados após a compra de pontos
+- ✅ Todo personagem começa em **Neutro Puro** — alinhamento muda pelas ações
+
+### Alinhamento
+- ✅ Dois eixos: Bem/Mal e Ordem/Caos → 9 alinhamentos possíveis
+- ✅ **Não é escolhido** pelo jogador — calculado automaticamente pelas ações
+- ✅ Muda gradualmente com padrão consistente de comportamento
+- ✅ Impacta diretamente a relação com as divindades e recebimento de poder divino
+- ✅ Pode gerar títulos especiais (O Redimido, O Corrompido, O Equilibrista...)
+- ✅ Três divindades estabelecidas com alinhamentos definidos:
+  - Aelthar → Leal Bom
+  - Veth'kara → Neutro Puro
+  - Durrhan → Neutro Mau tendendo a Leal Mau
+- ✅ Nove vozes restantes do panteão — a desenvolver
 
 ### Atributos — Papel no Sistema
 - ✅ Atributos **não recebem parcela do nível**
@@ -120,6 +134,7 @@
 - ✅ Dois tipos: com bônus mecânico e de prestígio
 - ✅ Acumula vários, nunca o mesmo duas vezes
 - ✅ Existem como fama e reputação no mundo
+- ✅ Títulos de alinhamento gerados automaticamente pelas ações
 
 ### Narrativa — Felferre
 - ✅ Prólogo escrito — A Fratura, Era dos Sem Nome, Despertar dos Deuses,
@@ -137,15 +152,16 @@
 - 🔴 Pré-requisitos de perícia para cada classe básica
 - 🔴 Vigor e Capacidade Mágica por classe básica
 - 🔴 Sistema de combate — cálculo de Defesa e Ataque
-  (Defesa escala com perícia similar a Luta mas não diretamente;
-  Destreza e Reflexos provavelmente entram no cálculo;
-  Equipamentos são o diferencial — a definir com calma)
 - 🔴 Proporção exata de como o Nível modifica os Atributos nos cálculos
 - 🔴 Pré-requisitos de nível para cada evolução de perícia (após definir classes)
-- 🔴 Panteão completo de divindades e seus dogmas
+- 🔴 Nove vozes restantes do panteão — nomes, dogmas, domínios
 
 ### Média Prioridade
 - 🟡 Pré-requisitos completos para classes de prestígio
+- 🟡 Valores numéricos de pontos de alinhamento por ação
+- 🟡 Velocidade de mudança de alinhamento
+- 🟡 Consequências mecânicas específicas de alinhamento extremo
+- 🟡 Alinhamento visível ao jogador ou apenas sentido nas consequências
 - 🟡 Geografia de Felferre — continentes, nações, biomas, populações
 - 🟡 Desenvolvimento individual de cada raça
 - 🟡 Sistema completo de itens
@@ -179,7 +195,7 @@ Golem, Sereia/Tritão
 
 | Referência | Uso |
 |---|---|
-| Tormenta RPG T20 | Base de atributos e perícias |
+| Tormenta RPG T20 | Base de atributos, perícias, alinhamento e classes |
 | Tibia | Curva de evolução por prática |
 | Solo Leveling / The Gamer | Progressão e títulos |
 | Tutorial is Too Hard | Jogador outlier |

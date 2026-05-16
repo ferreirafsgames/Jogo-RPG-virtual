@@ -178,9 +178,9 @@ Dragões Ancestrais existem desde a Era dos Sem Nome. Varukheth extinguiu o Sol 
 
 ```
 Plebeu          → vira comida
-Iniciante       → vira comida com mais resistência
-Veterano        → ameaça real, desfecho improvável
-Campeão         → combate possível, sobrevivência incerta
+Iniciante       → vira comida
+Veterano        → vira comida
+Campeão         → vira comida
 Lenda (21+)     → sobrevive tempo suficiente para ver o dragão
 Lenda (21+)     → talvez consiga fugir
 Lenda (21+)     → em um dia muito bom, com muita sorte e estrutura

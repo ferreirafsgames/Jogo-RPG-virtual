@@ -1,5 +1,5 @@
 # 🗡️ Sistema de Itens
-*Documento de design — RPG Medieval*
+*Documento de design — RPG Felferre*
 *Status: Pendente — apenas conceito inicial registrado*
 
 ---
@@ -13,6 +13,15 @@
 
 ---
 
+## Relação com o Sistema de Alinhamento
+
+Certos itens podem ter alinhamento próprio:
+- Itens de origem divina podem exigir alinhamento compatível com a divindade
+- Itens de origem sombria podem corromper o alinhamento do portador ao longo do tempo
+- Relíquias lendárias podem ter histórico de alinhamento registrado
+
+---
+
 ## ⏳ Em Aberto
 
 - Sistema completo de itens
@@ -21,3 +30,4 @@
 - Itens que concedem atributos — limites e mecânicas
 - Itens mágicos e sua relação com o sistema de magia
 - Crafting e fabricação (ver Ofício na árvore de perícias)
+- Relíquias do mundo — ver `01_mundo_e_ambientacao.md`
